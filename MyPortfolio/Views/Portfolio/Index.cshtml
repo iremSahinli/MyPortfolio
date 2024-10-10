@@ -11,87 +11,14 @@
     @await Component.InvokeAsync("NavbarComponentPartial")
     @await Component.InvokeAsync("FeatureComponentPartial")
     @await Component.InvokeAsync("AboutComponentPartial")
+    @await Component.InvokeAsync("MyTecnologiesComponentPartial")
     @await Component.InvokeAsync("SkillComponentPartial")
+    @await Component.InvokeAsync("TestmonialComponentPartial")
+    
    
     
    
-    <!-- pricing section -->
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <h6 class="section-title mb-6">Hangi Teknolojileri Kullanıyorum ?</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="~/meyawo-1.0.0/assets/imgs/scooter.svg"
-                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="~/meyawo-1.0.0/assets/imgs/shipped.svg"
-                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="~/meyawo-1.0.0/assets/imgs/startup.svg"
-                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-    @await Component.InvokeAsync("TestmonialComponentPartial")
+   
 
    @*  <!-- blog section -->
     <section class="section" id="blog">
@@ -164,47 +91,9 @@
         </div><!-- end of container -->
     </section><!-- end of blog section --> *@
     <!-- contact section -->
-    <section class="section" id="contact">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" requried>
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
-                                  placeholder="Write Something"></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
-                    </div>
-                </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0">
-                Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com">DevCRUD</a> Distribution <a href="https://themewagon.com">ThemeWagon</a>
-            </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
-            </div>
-        </footer>
-    </div> <!-- end of page footer -->
+    @await Component.InvokeAsync("ContactComponentPartial")
+    @await Component.InvokeAsync("SocialMediaComponentPartial")
+    
     <!-- core  -->
     <script src="~/meyawo-1.0.0/assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="~/meyawo-1.0.0/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
